@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #bad9df;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  
+  .card-content {
+    margin-top: 10px;
+  
+  }
+  
+  .card-content h3 {
+    margin: 0;
+  }
+  
+  .card-content p {
+    margin: 10px 0;
+  }

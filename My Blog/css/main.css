@@ -1,0 +1,98 @@
+@import url(components/featured-posts.css);
+@import url(pages.css/homepage.css);
+@import url(pages.css/blogpost.css);
+@import url(components/header.css);
+@import url(components/footer.css);
+@import url(components/sidebar.css);
+@import url(components/buttons.css);
+@import url(components/subscription-form.css);
+@import url(components/image.css);
+@import url(components/card.css);
+
+body{
+  width: 90%;
+  background-color: #FCE9F1;
+  display:block;
+  margin: 0 auto;
+}
+
+/* Custom typography */
+
+
+
+/* Custom Typography */
+h1 {
+  font-size: 36px;
+  font-family: 'Arial', sans-serif;
+  color: #ff6f61;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Georgia', serif;
+  color: #ff6f61;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: 'Verdana', sans-serif;
+  color: #ff6f61;
+  font-weight: normal;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Helvetica', sans-serif;
+  color: #000;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+  color: #890f0f;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Quotes */
+.blockquote {
+  background-color: #f9f9f9;
+  border-left: 5px solid #333;
+  padding: 10px 20px;
+  margin: 20px 0;
+}
+
+/* Colors */
+body {
+  background-color: #FCE9F1;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
